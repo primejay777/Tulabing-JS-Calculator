@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="1000">
+    <meta http-equiv="resfresh" content="1000">
+    <link rel="stylesheet" type="text/css" href="StylesheetCalcu.css">
+    <title>My Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="inner-calculator">
+            <form name="calcuForm" id="calcu-container">
+                <input type="text" id="answer" name="answerCalculated"><br>
+                <input type="button" value="1" onclick="cbtn1()" class="btn">
+                <input type="button" value="2" onclick="cbtn2()" class="btn">
+                <input type="button" value="3" onclick="cbtn3()" class="btn">
+                <input type="button" value="+" onclick="cbtnAdd()" class="btn">
+                <br>
+                <input type="button" value="4" onclick="cbtn4()" class="btn">
+                <input type="button" value="5" onclick="cbtn5()" class="btn">
+                <input type="button" value="6" onclick="cbtn6()" class="btn">
+                <input type="button" value="-" onclick="cbtnSub()" class="btn">
+                <br>
+                <input type="button" value="7" onclick="cbtn7()" class="btn">
+                <input type="button" value="8" onclick="cbtn8()" class="btn">
+                <input type="button" value="9" onclick="cbtn9()" class="btn">
+                <input type="button" value="*" onclick="cbtnMul()" class="btn">
+                <br>
+                <input type="button" value="0" onclick="cbtnZero()" class="btn">
+                <input type="button" value="/" onclick="cbtnDev()" class="btn">
+                <input type="button" value="." onclick="cbtnPoint()" class="btn">
+                <input type="button" value="=" onclick="cbtnEq()" class="btn">
+                <br>
+                <input type="button" value="Clear All" onclick="cbtnClear()" class="btn-clear">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="Calculator.js"></script>
+</html>
